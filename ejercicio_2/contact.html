@@ -6,10 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <!-- vincular aquí el css -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <form>
+         <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="password">Contraseña:</label>
+  <input type="password" id="password" name="password"><br><br>
+  <label for="customer-type">Tipo de cliente:</label><br>
+  <input type="radio" id="company" name="customer-type" value="company">
+  <label for="company">Empresa</label><br>
+  <input type="radio" id="individual" name="customer-type" value="individual">
+  <label for="individual">Particular</label><br>
+  <input type="radio" id="student" name="customer-type" value="student">
+  <label for="student">Estudiante</label><br><br>
+  <input type="submit" value="Enviar">
+      </form> 
+      
 
 </body>
 
