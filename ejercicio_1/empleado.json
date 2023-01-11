@@ -1,1 +1,14 @@
-// aquí va el json, borrar esta línea
+{
+    "nombre": "Mesi",
+    "apellidos": "Chiquito",
+    "direccion": {
+        "calle": "Urria 28",
+        "ciudad": "Oviedo"
+    },
+    "departamentos": [
+            "programacion",
+            "diseño",
+            "anállisis"
+        ]
+    
+}
